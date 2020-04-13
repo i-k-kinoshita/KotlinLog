@@ -16,7 +16,7 @@ class Human: Animal, Thinkable{
         Log.d("kotlintest", "私の名前は" + this.name + "です。年は" + this.age + "歳です。")
     }
 
-    // Movableインタフェースのメソッドをオーバーライド
+    // thinkインタフェースのメソッドをオーバーライド
     override fun think() {
         Log.d("kotlintest", "私は" + this.hobby + "について考える。")
     }
